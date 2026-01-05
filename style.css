@@ -17,7 +17,7 @@
 }
 
 .item-box {
-    background-image: url(./img/white-grid.png);
+    background-image: url(../img/white-grid.png);
     border: 1px solid #999;
     border-radius: 3px;
     padding: 1rem;
@@ -42,7 +42,7 @@
 }
 
 .item-a {
-    background-image: url(./img/black-grid.png);
+    background-image: url(../img/black-grid.png);
     color: #fff;
     grid-column: 1 / 4;
 }
