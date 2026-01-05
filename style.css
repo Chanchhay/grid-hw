@@ -17,7 +17,7 @@
 }
 
 .item-box {
-    background-image: url(https://gridbyexample.com/img/tiny_grid.png);
+    background-image: url("./img/white-grid.png");
     background-repeat: repeat;
     border: 1px solid #999;
     border-radius: 3px;
@@ -43,7 +43,7 @@
 }
 
 .item-a {
-    background-image: url(https://gridbyexample.com/img/inflicted.png);
+    background-image: url("./img/black-grid.png");
     background-repeat: repeat;
     color: #fff;
     grid-column: 1 / 4;
