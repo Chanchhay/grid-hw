@@ -5,15 +5,17 @@
     box-sizing: border-box;
 }
 
-.container {
-    display: grid;
-    grid-column-gap: 2rem;
-    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
-    margin: 0 auto;
-    width: 90%;
-    max-width: 1600px;
-    line-height: 1.625rem;
-    gap: 10px;
+@media screen and (min-width: 640px) {
+    .container {
+        display: grid;
+        grid-column-gap: 2rem;
+        grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1600px;
+        line-height: 1.625rem;
+        gap: 20px;
+    }
 }
 
 .item-box {
